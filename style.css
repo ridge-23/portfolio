@@ -91,7 +91,10 @@ nav {
     font-weight: bold;
 }
 
-
+.tagline {
+    font-size: 0.7rem;
+    
+}
 
 .nav-links {
     display: flex;
