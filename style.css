@@ -45,6 +45,13 @@ p {
 
 }
 
+.hero-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .projects-btn {
     background-color: #2563eb;
     color: white;
@@ -109,4 +116,11 @@ nav {
 
 .nav-links a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    .hero-buttons {
+        flex-direction: column;
+        
+    }
 }
