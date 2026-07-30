@@ -155,3 +155,42 @@ nav {
     line-height: 1.7;
 }
 
+.skills {
+    min-height: 100vh;
+    padding: 80px 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-content {
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    list-style: none;
+}
+
+.skill-card {
+    padding: 25px 15px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
