@@ -255,3 +255,46 @@ nav {
     border-radius: 20px;
     font-size: 0.9rem;
 }
+
+.contact {
+    min-height: 100vh;
+    padding: 80px 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.contact-content {
+    max-width: 650px;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px; 
+}
+
+.contact  {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 12px 25px;
+
+    background-color: white;
+    color: #2563eb;
+
+    text-decoration: none;
+    border-radius: 8px;
+
+    transition: trandform o.3s ease;
+}
+
+.contact-btn:hover {
+    transform: translateY(-3px);
+}
