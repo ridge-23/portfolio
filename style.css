@@ -188,6 +188,8 @@ nav {
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 10px;
     font-weight: bold;
+
+    transition: transform 0.3s ease;
 }
 
 .skill-card:hover {
