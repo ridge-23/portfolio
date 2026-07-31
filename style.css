@@ -86,6 +86,20 @@ p {
     background-color: #e5e7eb;
 }
 
+.projects-btn,
+.download-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.projects-btn:hover,
+.download-btn:hover {
+    transform: translateY(-3px);
+}
+
 nav {
     position: absolute;
     top: 0;
