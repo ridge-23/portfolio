@@ -270,6 +270,27 @@ nav {
     font-size: 0.9rem;
 }
 
+.project-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.project-links a {
+    padding: 8px 14px;
+    border: 1px solid white;
+    border-radius: 6px;
+
+    color: white;
+    text-decoration: none;
+
+    transition: transform 0.2s ease;
+}
+
+.project-links a:hover {
+    transform: translateY(-2px);
+}
+
 .contact {
     min-height: 100vh;
     padding: 80px 20px;
